@@ -27,7 +27,7 @@ The community samples focus on individual use cases and are Python-only. They ha
 - [__parquet-to-hyper__](https://github.com/tableau/hyper-api-samples/tree/main/Community-Supported/parquet-to-hyper)
   - Demonstrates how to create a `.hyper` file from an Apache Parquet file.
   - [__clouddb-extractor__](https://github.com/tableau/hyper-api-samples/tree/main/Community-Supported/clouddb-extractor)
-    - Cloud Database Extractor Utility - This sample shows how to extract data from a cloud database to a published `.hyper` extract and append/update/delete rows to keep up to date.
+    - Cloud Database Extractor Utility - This sample shows how to extract data from a cloud database to a published `.hyper` extract and append/update/delete rows to keep up it to date.
 
 </br>
 </br>
