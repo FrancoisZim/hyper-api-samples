@@ -746,7 +746,8 @@ class BaseExtractor(ABC):
                 self.update_datasource_from_hyper_file(
                     path_to_database=path_to_database,
                     tab_ds_name=tab_ds_name,
-                    action="INSERT",
+                    action="INSERT", 
+                    changeset_table_name="Extract"
                 )
             os.remove(path_to_database)
 
@@ -778,7 +779,8 @@ class BaseExtractor(ABC):
                 self.update_datasource_from_hyper_file(
                     path_to_database=path_to_database,
                     tab_ds_name=tab_ds_name,
-                    action="INSERT",
+                    action="INSERT", 
+                    changeset_table_name="Extract"
                 )
             os.remove(path_to_database)
 
